@@ -1,0 +1,10 @@
+rmdir /Q /S node_modules
+npm install -g firebase-tools
+firebase.cmd --version
+firebase.cmd login
+npm install
+npm start
+firebase.cmd init
+firebase.cmd deploy
+firebase.cmd init database
+firebase.cmd open
