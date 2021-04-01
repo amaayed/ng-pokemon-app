@@ -8,3 +8,4 @@ firebase.cmd init
 firebase.cmd deploy
 firebase.cmd init database
 firebase.cmd open
+
